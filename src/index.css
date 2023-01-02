@@ -1,0 +1,119 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__container {
+  margin: 13px 0 83px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.c-header__language {
+  font-family: "Tourney";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.c-nav-bar__list > li {
+  display: inline-block;
+
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.c-nav-bar__list > li > span {
+  margin: 0 10px;
+}
+
+.l-header__image {
+  margin-left: auto;
+}
+
+h1:nth-of-type(1)::after {
+  content: "Chapter 1";
+}
+
+h1:nth-of-type(2)::after {
+  content: "Chapter 2";
+}
+
+h1:nth-of-type(3)::after {
+  content: "Chapter 3";
+}
+
+h1:nth-of-type(4)::after {
+  content: "Chapter 4";
+}
+
+h1:nth-of-type(1)::after,
+h1:nth-of-type(2)::after,
+h1:nth-of-type(3)::after,
+h1:nth-of-type(4)::after {
+  font-family: "Farro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.51em;
+  line-height: 0.51em;
+  letter-spacing: 0.04em;
+  color: #000000;
+
+  position: relative;
+  bottom: 23px; /*better to set 49% but browser aren't show it in such way*/
+  left: 10px;
+}
+
+.article-title {
+  margin-top: 70px;
+
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main__text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.main__text_underline {
+  text-decoration: underline;
+}
+
+.main__text_italic {
+  font-style: italic;
+}
+
+.main__text_w700 {
+  font-weight: 700;
+}
+
+.main__text_grey-background {
+  background-color: #dadada;
+}
+
+.main__text > i {
+  color: orange;
+}
